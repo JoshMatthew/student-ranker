@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Ranker by Talplacido</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header>
+  <span>Student Ranker</span>
+</header>
+
+<div class="container">
+  <div class="inner-container">
+
+    <div class="inputs"></div>
+
+    <div id="new-stud">
+      <span id="btn-label">New Entry</span>
+      <button id="new-ent-btn">+</button>
+    </div>
+
+    <div id="output">
+      <button id="compute-btn" class="success">Compute</button>
+      <button id="reset-btn" class="warn">Reset</button>
+
+      <div class="results" id="results">
+        <table id="table">
+          <tbody id="headers">
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>GPA</th>
+            </tr>
+          </tbody>
+        </table>
+
+        <span id="conclusion"></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

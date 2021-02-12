@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+
+#new-stud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-ent-btn {
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  outline: none;
+}
+
+.inputs {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.entry {
+  padding: 0.5rem 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.entry input {
+  flex: 2;
+  padding: 0.5rem 12px;
+  border-radius: 7px;
+  border: none;
+  border-bottom: 2px solid #333;
+  border-top: 1.6px solid #333;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.entry input:nth-child(2) {
+  flex: 1;
+}
+
+.entry input:focus {
+  border: 1.6px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+#output {
+  width: 70%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+#output button {
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.7rem;
+  width: 300px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 7px;
+  outline: none;
+}
+
+#output button:hover, .rem-input:hover {
+  box-shadow: #111 2px 2px 10px;
+}
+
+#output button:active, .rem-input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.warn {
+  background: #df1313;
+  color: #e9e9e9;
+}
+
+.success {
+  background: #1ada1a;
+  color: #e9e9e9;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#table {
+  margin-top: 2rem;
+}
+
+th, td, tr {
+  border: 1.4px solid #333;
+}
+
+td {
+  text-align: center;
+}
+
+#table th {
+  color: #449514;
+  padding: 0.2rem 1rem;
+}
+
+#table td {
+  color: #222221;
+  padding: 0.2rem 1rem;
+}
+
+table {
+  margin-bottom: 2.1rem;
+}
+
+#conclusion{
+  font-size: 0.8rem;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c3c3c3;
+}
+
+header span {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: #000 1px 1px, #111 -1px -1px;
+  color: #d6d6d6;
+}
+
+.rem-input {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
